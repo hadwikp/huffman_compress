@@ -25,7 +25,7 @@ int main(int argc,char* argv[])
     else if(mode=="--decompress")
     {
         auto head=readHeader(in_path);
-        Node* root=rebuild(head);
+        Node* root=rebuildTree(head);
         decompressFile(in_path,out_path,root,head.total_chars);
     }
     else{
