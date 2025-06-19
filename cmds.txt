@@ -1,0 +1,9 @@
+cd build
+cmake ..
+make
+ctest --output-on-failure
+
+
+//
+./build/huffman --compress <input.txt> <compressed file>
+./build/huffman --decompress <compressed file> <decompress.txt>

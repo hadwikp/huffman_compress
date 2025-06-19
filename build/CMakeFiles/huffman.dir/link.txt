@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/huffman.dir/src/main.cpp.o -o huffman  libhuffman_lib.a 

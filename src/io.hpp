@@ -9,12 +9,18 @@ struct Header{
     std::unordered_map<char,std::vector<bool>> codes;
 };
 
-void writeCompressed(const std::string& int_path , const std::string& out_path,
-                    const std::unordered_map<char,std::vector<bool>>& codes , size_t total_chars);
+// Write compressed file: header and body
+void writeCompressed(const std::string& in_path,
+                     const std::string& out_path,
+                     const std::unordered_map<char, std::vector<bool>>& codes,
+                     size_t total_chars);
 
-Header readHeader(const std::string& in_path);
+// Read header from stream, advancing its position
+Header readHeader(std::ifstream& in);
 
+// Rebuild Huffman tree from header data
 Node* rebuildTree(const Header& header);
 
-void decompressFile(const std::string& in_path , const std::string& out_path,
-                    Node* root,size_t total_chars);
+// Decompress using an open stream positioned after header
+void decompressFile(const std::string& in_path,
+                    const std::string& out_path);

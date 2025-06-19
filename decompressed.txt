@@ -1,0 +1,9 @@
+Hello Everyone,
+
+This Project is about using Huffman coding effciently for file_Compression file_Decompression.
+So to easily exchange the high storage file  
+There will be no error in the retrieved files by using this method.
+We can compress the files in here to around 50% of the initial size without loss of any information..
+
+#Huffman coding
+

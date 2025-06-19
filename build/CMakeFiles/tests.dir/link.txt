@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tests.dir/tests/test_codegen.cpp.o CMakeFiles/tests.dir/tests/test_roundtrip.cpp.o -o tests  libhuffman_lib.a /usr/lib/libCatch2Main.a /usr/lib/libCatch2.a 

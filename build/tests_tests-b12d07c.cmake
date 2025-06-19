@@ -1,0 +1,5 @@
+add_test( [==[Huffman Tree builds correct codes]==] /home/hadwik/Desktop/huffman_compress/build/tests [==[Huffman Tree builds correct codes]==]  )
+set_tests_properties( [==[Huffman Tree builds correct codes]==] PROPERTIES WORKING_DIRECTORY /home/hadwik/Desktop/huffman_compress/build)
+add_test( [==[Roundtrip compression and decompression]==] /home/hadwik/Desktop/huffman_compress/build/tests [==[Roundtrip compression and decompression]==]  )
+set_tests_properties( [==[Roundtrip compression and decompression]==] PROPERTIES WORKING_DIRECTORY /home/hadwik/Desktop/huffman_compress/build)
+set( tests_TESTS [==[Huffman Tree builds correct codes]==] [==[Roundtrip compression and decompression]==])

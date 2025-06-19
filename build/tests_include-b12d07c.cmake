@@ -1,0 +1,5 @@
+if(EXISTS "/home/hadwik/Desktop/huffman_compress/build/tests_tests-b12d07c.cmake")
+  include("/home/hadwik/Desktop/huffman_compress/build/tests_tests-b12d07c.cmake")
+else()
+  add_test(tests_NOT_BUILT-b12d07c tests_NOT_BUILT-b12d07c)
+endif()

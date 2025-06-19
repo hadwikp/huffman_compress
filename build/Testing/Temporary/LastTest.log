@@ -1,0 +1,43 @@
+Start testing: Jun 19 21:28 UTC
+----------------------------------------------------------
+1/2 Testing: Huffman Tree builds correct codes
+1/2 Test: Huffman Tree builds correct codes
+Command: "/home/hadwik/Desktop/huffman_compress/build/tests" "Huffman Tree builds correct codes"
+Directory: /home/hadwik/Desktop/huffman_compress/build
+"Huffman Tree builds correct codes" start time: Jun 19 21:28 UTC
+Output:
+----------------------------------------------------------
+Filters: "Huffman Tree builds correct codes"
+Randomness seeded to: 2608868205
+===============================================================================
+All tests passed (37 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Huffman Tree builds correct codes" end time: Jun 19 21:28 UTC
+"Huffman Tree builds correct codes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: Roundtrip compression and decompression
+2/2 Test: Roundtrip compression and decompression
+Command: "/home/hadwik/Desktop/huffman_compress/build/tests" "Roundtrip compression and decompression"
+Directory: /home/hadwik/Desktop/huffman_compress/build
+"Roundtrip compression and decompression" start time: Jun 19 21:28 UTC
+Output:
+----------------------------------------------------------
+Filters: "Roundtrip compression and decompression"
+Randomness seeded to: 4000525813
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Roundtrip compression and decompression" end time: Jun 19 21:28 UTC
+"Roundtrip compression and decompression" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 19 21:28 UTC
