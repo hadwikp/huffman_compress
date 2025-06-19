@@ -4,19 +4,20 @@ C++17 implementation of lossless text compression/decompression using Huffman co
 
 ## Build & Run
 ```bash
-mkdir build && cd build
+mkdir build
+cd build
 cmake ..
 make
 ```
 
 Compress:
 ```bash
-./huffman --compress input.txt output.bin
+./build/huffman --compress input.txt output.bin
 ```
 
 Decompress:
 ```bash
-./huffman --decompress input.bin output.txt
+./build/huffman --decompress input.bin output.txt
 ```
 
 ## Testing
